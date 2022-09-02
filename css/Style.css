@@ -1,0 +1,46 @@
+html,
+body {
+  height: 100%;
+  background: #0a2558;
+}
+
+.contain {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 500px;
+  box-shadow: 20px 10px 30px rgba(0, 0, 0, 0.6);
+}
+.card-body h1 {
+  text-align: center;
+  color: #0a2558;
+}
+p {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+.sub-menu {
+  font-size: 13px;
+  color: #fff;
+  font-weight: 400;
+  white-space: nowrap;
+  padding-left: 30%;
+}
+.sidebar .nav-links ul {
+ display: none;
+}
+.sidebar .nav-links li .bxs-down-arrow {
+  font-size: 12px;
+  transition: 0.4s;
+}
+.sidebar .nav-links li .bxs-down-arrow.putar{
+  transform: rotate(-180deg);
+}
+.sidebar .nav-links .menuS.show {
+ display: block;
+}
